@@ -12,7 +12,7 @@ yarn add -E paddys
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-- [`paddys(string: string, options?: Config)`](#paddysstring-stringoptions-config-void)
+- [`paddys(string: string, options?: Config): string`](#paddysstring-stringoptions-config-string)
   * [`Config`](#type-config)
 - [Copyright](#copyright)
 
@@ -28,15 +28,15 @@ import paddys from 'paddys'
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/1.svg?sanitize=true"></a></p>
 
-## `paddys(`<br/>&nbsp;&nbsp;`string: string,`<br/>&nbsp;&nbsp;`options?: Config,`<br/>`): void`
+## `paddys(`<br/>&nbsp;&nbsp;`string: string,`<br/>&nbsp;&nbsp;`options?: Config,`<br/>`): string`
 
 Pads the string to the right to equalise the length of each line.
 
 __<a name="type-config">`Config`</a>__: Options for the program.
 
-|    Name    |   Type   |           Description            |
-| ---------- | -------- | -------------------------------- |
-| __width*__ | _number_ | The width to which to pad lines. |
+| Name  |   Type   |           Description            |
+| ----- | -------- | -------------------------------- |
+| width | _number_ | The width to which to pad lines. |
 
 ```js
 /* yarn example/ */

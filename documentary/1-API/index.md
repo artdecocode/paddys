@@ -8,7 +8,7 @@ import paddys from 'paddys'
 
 %~%
 
-```## paddys
+```## paddys => string
 [
   ["string", "string"],
   ["options?", "Config"]

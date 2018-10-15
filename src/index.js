@@ -14,7 +14,7 @@ const pad = (width, string) => {
  * Pads the string so that each line is of equal width.
  * @param {string} [string] The string to pad.
  * @param {Config} [options] Options for the program.
- * @param {number} options.width The width to which to pad lines.
+ * @param {number} [options.width] The width to which to pad lines.
  * @example
  * import paddys from 'paddys'
  * const res = paddys(`test
@@ -36,5 +36,5 @@ export default paddys
 /* documentary types/index.xml */
 /**
  * @typedef {Object} Config Options for the program.
- * @prop {number} width The width to which to pad lines.
+ * @prop {number} [width] The width to which to pad lines.
  */

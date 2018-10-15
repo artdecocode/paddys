@@ -1,6 +1,6 @@
 <types>
   <type name="Config" desc="Options for the program.">
-    <prop number name="width">
+    <prop opt number name="width">
       The width to which to pad lines.
     </prop>
   </type>
