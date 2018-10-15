@@ -3,11 +3,9 @@ import Context from '../context'
 import paddys from '../../src'
 
 const ts = makeTestSuite('test/result', {
-  async getResults(input) {
-    const res = await paddys({
-      text: input,
-    })
-    return res
+  getResults(input) {
+    const res = paddys(input, 10)
+    return res.replace(/ /g, '_')
   },
   context: Context,
 })

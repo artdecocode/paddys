@@ -1,22 +1,16 @@
-import { debuglog } from 'util'
-
-const LOG = debuglog('paddys')
-
 /**
  * Pad Strings.
- * @param {Config} [config] Options for the program.
- * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
- * @param {string} config.text A text to return.
+ * @param {string} [string] The string to pad.
+ * @param {number} [width] The width to which to pad.
  */
-export default async function paddys(config = {}) {
-  const {
-    shouldRun = true,
-    text,
-  } = config
-  if (!shouldRun) return
-  LOG('paddys called with %s', text)
-  return text
+const paddys = (string, width) => {
+  const d = Math.max(width - string.length, 0)
+  const p = ' '.repeat(d)
+  const s = `${string}${p}`
+  return s
 }
+
+export default paddys
 
 /* documentary types/index.xml */
 /**

@@ -8,15 +8,15 @@ const T = {
   'is a function'() {
     equal(typeof paddys, 'function')
   },
-  async 'calls package without error'() {
-    await paddys()
-  },
-  async 'gets a link to the fixture'({ FIXTURE }) {
-    const res = await paddys({
-      text: FIXTURE,
-    })
-    ok(res, FIXTURE)
-  },
+  // async 'calls package without error'() {
+  //   await paddys()
+  // },
+  // async 'gets a link to the fixture'({ FIXTURE }) {
+  //   const res = await paddys({
+  //     text: FIXTURE,
+  //   })
+  //   ok(res, FIXTURE)
+  // },
 }
 
 export default T
