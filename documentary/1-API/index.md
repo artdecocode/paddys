@@ -10,12 +10,12 @@ import paddys from 'paddys'
 
 ```## paddys
 [
-  ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["string", "string"],
+  ["options?", "Config"]
 ]
 ```
 
-Call this function to get the result you want.
+Pads the string to the right to equalise the length of each line.
 
 %TYPEDEF types/index.xml%
 

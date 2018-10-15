@@ -1,9 +1,14 @@
+/* start example */
 /* yarn example/ */
 import paddys from '../src'
 
-(async () => {
-  const res = await paddys({
-    text: 'example',
-  })
-  console.log(res)
-})()
+const res = paddys(
+  `Just stop your wandering,
+Look penetratingly into your inherent nature,
+And, concentrating your spiritual energy,
+Sit in zazen
+And break through.`
+)
+/* end example */
+.replace(/( +)$/gm, ({ length }) => '_'.repeat(length))
+console.log(res)

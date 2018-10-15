@@ -2,7 +2,7 @@
 
 %NPM: paddys%
 
-`paddys` is a package that pads strings to the desired length.
+`paddys` is a package that pads strings so that each line is of the width of the longest line. It can also pad to a specific length.
 
 ```sh
 yarn add -E paddys

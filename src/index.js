@@ -17,7 +17,10 @@ const pad = (width, string) => {
  * @param {number} options.width The width to which to pad lines.
  * @example
  * import paddys from 'paddys'
- * const res = paddys('test', 7) // 'test   '
+ * const res = paddys(`test
+t`)
+  // test
+  // t___
  */
 const paddys = (string, options = {}) => {
   const {
