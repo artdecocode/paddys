@@ -1,22 +1,16 @@
-const { debuglog } = require('util');
-
-const LOG = debuglog('paddys')
-
 /**
  * Pad Strings.
- * @param {Config} [config] Options for the program.
- * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
- * @param {string} config.text A text to return.
+ * @param {string} [string] The string to pad.
+ * @param {number} [width] The width to which to pad.
  */
-               async function paddys(config = {}) {
-  const {
-    shouldRun = true,
-    text,
-  } = config
-  if (!shouldRun) return
-  LOG('paddys called with %s', text)
-  return text
+const paddys = (string, width) => {
+  const d = Math.max(width - string.length, 0)
+  const p = ' '.repeat(d)
+  const s = `${string}${p}`
+  return s
 }
+
+module.exports=paddys
 
 /* documentary types/index.xml */
 /**
@@ -24,7 +18,3 @@ const LOG = debuglog('paddys')
  * @prop {boolean} [shouldRun=true] A boolean option. Default `true`.
  * @prop {string} text A text to return.
  */
-
-
-module.exports = paddys
-//# sourceMappingURL=index.js.map
