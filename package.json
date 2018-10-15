@@ -1,7 +1,7 @@
 {
   "name": "paddys",
   "version": "0.0.0",
-  "description": "Pad Strings.",
+  "description": "Pad Strings To Equalise The Length Of Each Line.",
   "main": "build",
   "scripts": {
     "t": "zoroaster -a",
@@ -27,7 +27,14 @@
     "url": "git://github.com/artdecocode/paddys.git"
   },
   "keywords": [
-    "paddys"
+    "paddys",
+    "pad",
+    "strings",
+    "string",
+    "length",
+    "width",
+    "equal",
+    "equalise"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
