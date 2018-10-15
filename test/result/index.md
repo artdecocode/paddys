@@ -2,5 +2,14 @@
 test
 
 /* expected */
-test______
+test
+/**/
+
+// returns the correct output for multiple lines
+test
+t___
+
+/* expected */
+test
+t___
 /**/

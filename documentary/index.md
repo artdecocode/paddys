@@ -2,7 +2,7 @@
 
 %NPM: paddys%
 
-`paddys` is Pad Strings.
+`paddys` is a package that pads strings to the desired length.
 
 ```sh
 yarn add -E paddys

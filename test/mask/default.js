@@ -1,13 +1,18 @@
 import { makeTestSuite } from 'zoroaster'
-import Context from '../context'
 import paddys from '../../src'
 
-const ts = makeTestSuite('test/result', {
+const ts = makeTestSuite('test/result/index.md', {
   getResults(input) {
     const res = paddys(input, 10)
     return res.replace(/ /g, '_')
   },
-  context: Context,
+})
+
+export const width = makeTestSuite('test/result/options/width.md', {
+  getResults(input) {
+    const res = paddys(input, { width: 5 })
+    return res.replace(/ /g, '_')
+  },
 })
 
 export default ts
