@@ -1,6 +1,6 @@
 {
   "name": "paddys",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Pad Strings To Equalise The Length Of Each Line.",
   "main": "build/index.js",
   "module": "src/index.js",
