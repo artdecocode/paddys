@@ -19,7 +19,7 @@ Pads the string to the right to equalise the length of each line.
 
 %TYPEDEF types/index.xml%
 
-%EXAMPLE: example/example.js, ../src => paddys%
-%FORK example example/example%
+%EXAMPLE: example/example, ../src => paddys%
+%FORK example/example%
 
 %~%

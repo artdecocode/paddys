@@ -1,11 +1,11 @@
-// returns the correct output
+## returns the correct output
 test
 
 /* expected */
 test
 /**/
 
-// returns the correct output for multiple lines
+## returns the correct output for multiple lines
 test
 t___
 

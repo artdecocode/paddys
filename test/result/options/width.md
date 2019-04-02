@@ -1,4 +1,4 @@
-// pads to the correct width
+## pads to the correct width
 test
 t
 

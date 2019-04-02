@@ -2,7 +2,8 @@
   "name": "paddys",
   "version": "1.0.1",
   "description": "Pad Strings To Equalise The Length Of Each Line.",
-  "main": "build",
+  "main": "build/index.js",
+  "module": "src/index.js",
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
@@ -20,7 +21,8 @@
     "example/": "yarn e example/example.js"
   },
   "files": [
-    "build"
+    "build",
+    "src"
   ],
   "repository": {
     "type": "git",
@@ -43,10 +45,10 @@
   },
   "homepage": "https://github.com/artdecocode/paddys#readme",
   "devDependencies": {
-    "alamode": "1.6.0",
-    "documentary": "1.20.1",
+    "alamode": "1.9.0",
+    "documentary": "1.23.2",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "3.6.2"
+    "zoroaster": "3.11.2"
   }
 }
