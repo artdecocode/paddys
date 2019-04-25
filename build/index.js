@@ -1,7 +1,7 @@
 /**
  * Pad Strings.
- * @param {number} [width] The width to which to pad.
- * @param {string} [string] The string to pad.
+ * @param {number} width The width to which to pad.
+ * @param {string} string The string to pad.
  */
 const pad = (width, string) => {
   const d = Math.max(width - string.length, 0)
