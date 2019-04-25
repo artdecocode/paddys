@@ -13,7 +13,7 @@ yarn add -E paddys
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
 - [`paddys(string: string, options?: Config): string`](#paddysstring-stringoptions-config-string)
-  * [`Config`](#type-config)
+  * [`_paddys.Config`](#type-_paddysconfig)
 - [Copyright](#copyright)
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/0.svg?sanitize=true"></a></p>
@@ -32,11 +32,11 @@ import paddys from 'paddys'
 
 Pads the string to the right to equalise the length of each line.
 
-__<a name="type-config">`Config`</a>__: Options for the program.
+__<a name="type-_paddysconfig">`_paddys.Config`</a>__: Options for the program.
 
-| Name  |   Type   |           Description            |
-| ----- | -------- | -------------------------------- |
-| width | _number_ | The width to which to pad lines. |
+| Name  |      Type       |           Description            |
+| ----- | --------------- | -------------------------------- |
+| width | <em>number</em> | The width to which to pad lines. |
 
 ```js
 /* yarn example/ */
@@ -62,8 +62,22 @@ And break through.___________________________
 
 ## Copyright
 
-(c) [Art Deco][1] 2019
-
-[1]: https://artd.eco
+<table>
+  <tr>
+    <th>
+      <a href="https://artd.eco">
+        <img src="https://raw.githubusercontent.com/wrote/wrote/master/images/artdeco.png" alt="Art Deco" />
+      </a>
+    </th>
+    <th>© <a href="https://artd.eco">Art Deco</a>   2019</th>
+    <th>
+      <a href="https://www.technation.sucks" title="Tech Nation Visa">
+        <img src="https://raw.githubusercontent.com/artdecoweb/www.technation.sucks/master/anim.gif"
+          alt="Tech Nation Visa" />
+      </a>
+    </th>
+    <th><a href="https://www.technation.sucks">Tech Nation Visa Sucks</a></th>
+  </tr>
+</table>
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/-1.svg?sanitize=true"></a></p>

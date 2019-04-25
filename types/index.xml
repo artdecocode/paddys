@@ -1,4 +1,4 @@
-<types>
+<types namespace="_paddys">
   <type name="Config" desc="Options for the program.">
     <prop opt number name="width">
       The width to which to pad lines.
